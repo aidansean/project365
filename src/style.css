@@ -1,0 +1,51 @@
+div.div_photo{
+  font : 10pt times , serif ;
+  color : #ffffff ;
+  background : #000000 ;
+  text-align : center ;
+  padding-top : 0.5em ;
+  border-bottom : 1px dashed white ;
+  border-right : 1px solid #888888 ;
+}
+div.div_photo_toprow{
+  border-top : 1px dashed white ;
+}
+div.div_photo_rightcolumn{
+  border-right : 0px dashed white ;
+}
+
+table#table_photos{
+  width : 770px ;
+  margin : auto ;
+  border-collapse : collapse ;
+  margin-top : 1em ;
+}
+th.month_heading{
+  text-align : center ;
+  font : 24pt times, serif ;
+  padding : 0.5em ;
+}
+th.day_name{
+  text-align : center ;
+}
+img.photo{
+  border : 1px solid white ;
+}
+img#large_image{
+  margin-top : 10px ;
+  margin : auto ;
+}
+p#p_caption{
+  text-align : center ;
+  width : 750px ;
+  font : 20pt italic georgia ;
+}
+div#large_wrapper{
+  text-align : center ;
+  padding-top : 30px ;
+}
+p#image_date{
+  padding : 0.25em ;
+  width : 200px ;
+  font : 20pt arial ;
+}
