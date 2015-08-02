@@ -2,8 +2,9 @@ from project_module import project_object, image_object, link_object, challenge_
 
 p = project_object('project365', 'Project 365')
 p.domain = 'http://www.aidansean.com/'
-p.path = 'project365'
-p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
+p.path = '365'
+p.preview_image    = image_object('%s/images/project.jpg'   %p.path, 150, 250)
+p.preview_image_bw = image_object('%s/images/project_bw.jpg'%p.path, 150, 250)
 p.folder_name = 'aidansean'
 p.github_repo_name = 'project365'
 p.mathjax = False
